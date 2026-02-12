@@ -1,0 +1,15 @@
+{
+  "name": "telegram-bot-demo",
+  "version": "1.0.0",
+  "description": "Универсальный Telegram-бот: запись клиентов, заявки, уведомления",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "better-sqlite3": "^11.7.0",
+    "dotenv": "^16.4.7"
+  }
+}
